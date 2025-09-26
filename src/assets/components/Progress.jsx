@@ -2,7 +2,7 @@ import React from "react";
 import photo1 from "../img/vector1.png";
 import photo2 from "../img/vector3.png";
 
-const Progress = ({card}) => {
+const Progress = ({card,res}) => {
   return (
     <div className="bg-[#f5f5f5]">
       <div className="py-15 container gap-5 mx-auto md:flex  justify-center item-center">
@@ -28,7 +28,7 @@ const Progress = ({card}) => {
           }}
         >
           <h1 className="text-white md:text-3xl font-bold">Resolved</h1>
-          <p className="md:text-2xl text-white font-semibold">0</p>
+          <p className="md:text-2xl text-white font-semibold">{res.length}</p>
         </div>
       </div>
     </div>
