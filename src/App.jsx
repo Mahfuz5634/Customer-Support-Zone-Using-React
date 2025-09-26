@@ -1,5 +1,5 @@
 import './App.css'
-import Navbar from './assets/components/navbar'
+import Navbar from './assets/components/Navbar'
 import Progress from './assets/components/Progress'
 
 function App() {
