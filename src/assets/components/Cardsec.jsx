@@ -41,8 +41,19 @@ const Cardsec = ({fetchData}) => {
                        ))
                       }
                 </div>
-                <div className='3/12 bg-amber-700'>
-                 <h1>div2</h1>
+                <div className='3/12 w-[350px] bg-white p-2'>
+                    <div>
+                        <h1 className='text-[20px] font-bold opacity-90'>Task Status</h1>
+                    <p>Select a ticket to add to Task Status</p>
+                    </div>
+
+                    <div>
+                        <h1 className='text-[20px] font-bold opacity-90'>Resolved Task</h1>
+                    <p>No resolved tasks yet.</p>
+                    </div>
+                    <div>
+
+                    </div>
                 </div>
             </div>
             </div>
