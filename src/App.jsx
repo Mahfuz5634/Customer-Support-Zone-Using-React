@@ -1,5 +1,5 @@
 import { Suspense, useState } from 'react'
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 import './App.css'
 import Cardsec from './assets/components/Cardsec'
 import Footer from './assets/components/footer'

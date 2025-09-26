@@ -1,4 +1,4 @@
-import React, { use, useState } from "react";
+import React, { use} from "react";
 import { toast } from "react-toastify";
 
 const Cardsec = ({ fetchData, setcard, card, res, setres }) => {
@@ -32,11 +32,13 @@ const Cardsec = ({ fetchData, setcard, card, res, setres }) => {
                 .filter((d) => !res.some((r) => r.id === d.id))
                 .map((data) => (
                   <div
+                  key={data.id}
                     onClick={() => {
                       handlefunc(data);
                     }}
                     className="card md:w-[450px] md:h-auto sm:mb-3  bg-white p-5"
-                  >
+                  > 
+                  
                     <div className="flex justify-between gap-5">
                       <h1 className="text-[20px] font-semibold">
                         {data.title}
@@ -74,7 +76,7 @@ const Cardsec = ({ fetchData, setcard, card, res, setres }) => {
                     <div className="flex justify-between items-center mt-4">
                       <div className="flex justify-center items-center gap-4">
                         <h1 className="opacity-90">#{data.id}</h1>
-                        <h1 className="text-rose-500 opacity-90">
+                        <h1 className={`${data.priority==='High'?'text-rose-500':'text-yellow-400'} opacity-90`}>
                           {data.priority}
                         </h1>
                       </div>
