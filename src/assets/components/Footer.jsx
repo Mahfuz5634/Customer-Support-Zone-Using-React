@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-black'>
-            <div className='md:flex md:gap-3 p-15  justify-between items-center container mx-auto'>
+            <div className='md:flex md:gap-3 p-15  justify-between items-center container mx-auto border-b-2'>
                 <div  className='flex-1 md:mr-15'>
                     <h1 className='text-white md:text-[25px] font-bold'>CS-Ticket System</h1>
                     <p className='text-white text-[9px] opacity-70 text-justify'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -32,7 +32,11 @@ const Footer = () => {
                     <p  className='text-white text-[9px] opacity-70'><i class="fa-brands fa-twitter"></i>@CS-Ticket-System</p>
                     <p className='text-white text-[9px] opacity-70'><i class="fa-brands fa-youtube"></i>@CS-Ticket-System</p>
                 </div>
+                  
             </div>
+            <div className='p-5'>
+                    <p className='text-center text-white text-[12px] font-bold'>© 2025 CS — Ticket System. All rights reserved.</p>
+                  </div>
         </div>
     );
 };
