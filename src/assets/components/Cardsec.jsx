@@ -36,7 +36,7 @@ const Cardsec = ({ fetchData, setcard, card, res, setres }) => {
                     onClick={() => {
                       handlefunc(data);
                     }}
-                    className="card md:w-[450px] md:h-auto sm:mb-3  bg-white p-5"
+                    className="md:w-[450px] md:h-auto sm:mb-3  bg-white p-5"
                   > 
                   
                     <div className="flex justify-between gap-5">
@@ -83,7 +83,7 @@ const Cardsec = ({ fetchData, setcard, card, res, setres }) => {
                       <div className="flex justify-center items-center gap-4">
                         <h1 className="opacity-90">{data.customer}</h1>
                         <h1 className="opacity-90">
-                          <i class="fa-solid fa-calendar"></i>
+                          <i className="fa-solid fa-calendar"></i>
                           {data.createdAt}
                         </h1>
                       </div>

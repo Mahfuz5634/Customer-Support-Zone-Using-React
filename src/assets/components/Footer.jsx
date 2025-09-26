@@ -28,9 +28,9 @@ const Footer = () => {
                 </div>
                 <div className='flex-1'>
                     <h1 className='text-[20px] text-white font-bold'>Social Links</h1>
-                    <p  className='text-white text-[9px] opacity-70'><i class="fa-brands fa-facebook"></i>@CS-Ticket-System</p>
-                    <p  className='text-white text-[9px] opacity-70'><i class="fa-brands fa-twitter"></i>@CS-Ticket-System</p>
-                    <p className='text-white text-[9px] opacity-70'><i class="fa-brands fa-youtube"></i>@CS-Ticket-System</p>
+                    <p  className='text-white text-[9px] opacity-70'><i className="fa-brands fa-facebook"></i>@CS-Ticket-System</p>
+                    <p  className='text-white text-[9px] opacity-70'><i className="fa-brands fa-twitter"></i>@CS-Ticket-System</p>
+                    <p className='text-white text-[9px] opacity-70'><i className="fa-brands fa-youtube"></i>@CS-Ticket-System</p>
                 </div>
                   
             </div>
