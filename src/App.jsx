@@ -5,7 +5,8 @@ import Cardsec from './assets/components/Cardsec'
 import Footer from './assets/components/footer'
 import Navbar from './assets/components/Navbar'
 import Progress from './assets/components/Progress'
-const fetchData=fetch('/public/data.json') .then(res=>res.json())
+
+const fetchData=fetch('/data.json') .then(res=>res.json())
 
 
 
