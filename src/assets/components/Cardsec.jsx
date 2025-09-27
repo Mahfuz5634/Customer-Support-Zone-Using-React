@@ -125,11 +125,11 @@ const Cardsec = ({ fetchData, setcard, card, res, setres }) => {
                   Resolved Task
                 </h1>
                 <div>
-                  {res.map((dt) => (
+                  {res.length?(res.map((dt) => (
                     <div key={dt.id} className="bg-green-100 p-2 rounded mb-2">
                       <h1>✅{dt.title}</h1>
                     </div>
-                  ))}
+                  ))):"No resolved task yet"}
                 </div>
               </div>
               <div></div>
